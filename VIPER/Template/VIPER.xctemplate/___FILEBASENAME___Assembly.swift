@@ -23,6 +23,7 @@ final class ___VARIABLE_ModuleName___Assembly {
         presenter.moduleOutput = context.moduleOutput
         
         interactor.output = presenter
+        router.viewController = viewController
         
         return ___VARIABLE_ModuleName___Container(view: viewController, input: presenter, router: router)
     }
