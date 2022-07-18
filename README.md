@@ -2,9 +2,6 @@
 Templates for most popular architectural patterns
 <img alt="img" src="https://user-images.githubusercontent.com/60363270/179457060-0480c9c8-5de4-4eda-bfb9-c6192a192b7e.png">
 
-## Contribution
-
-
 ## Installation
 1. Close this repository (e.g. in `Downloads` directory)
 2. Open its' directory in the terminal (e.g. `cd Downloads/Xcode-Templates`)
