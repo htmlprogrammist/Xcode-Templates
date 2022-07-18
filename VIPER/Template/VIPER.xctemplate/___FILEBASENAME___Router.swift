@@ -9,6 +9,7 @@
 import UIKit
 
 final class ___VARIABLE_ModuleName___Router {
+    weak var output: ___VARIABLE_ModuleName___RouterOutput?
 }
 
 extension ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___RouterInput {

@@ -29,3 +29,6 @@ protocol ___VARIABLE_ModuleName___InteractorOutput: AnyObject {
 
 protocol ___VARIABLE_ModuleName___RouterInput: AnyObject {
 }
+
+protocol ___VARIABLE_ModuleName___RouterOutput: AnyObject {
+}
