@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sourceTemplateDir=./VIPER-Template
+sourceTemplateDir=./Template
 destTemplateDir=$HOME/Library/Developer/Xcode/Templates/File\ Templates/Custom\ Templates/Source
 templateName=VIPER.xctemplate
 
