@@ -15,10 +15,9 @@ protocol ___VARIABLE_ModuleName___ModuleOutputProtocol: AnyObject {
 }
 
 final class ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresenterProtocol {
-	weak var view: ___VARIABLE_ModuleName___ViewProtocol?
+    weak var view: ___VARIABLE_ModuleName___ViewProtocol?
     weak var moduleOutput: ___VARIABLE_ModuleName___ModuleOutputProtocol?
-    
-	private let router: ___VARIABLE_ModuleName___RouterProtocol
+    private let router: ___VARIABLE_ModuleName___RouterProtocol
     
     init(router: ___VARIABLE_ModuleName___RouterProtocol) {
         self.router = router
