@@ -9,16 +9,18 @@
 protocol ___VARIABLE_ModuleName___BusinessLogic: AnyObject {
 }
 
-protocol ___VARIABLE_ModuleName___DataStore: AnyObject {
-}
-
-final class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___BusinessLogic, ___VARIABLE_ModuleName___DataStore {
+final class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___BusinessLogic {
     
     // MARK: - Private Properties
     
-    public var presenter: ___VARIABLE_ModuleName___PresentationLogic?
-    
-    // MARK: - Private Properties
-    
+    private let presenter: ___VARIABLE_ModuleName___PresentationLogic
+    private let router: ___VARIABLE_ModuleName___RoutingLogic
     private let worker = ___VARIABLE_ModuleName___Worker()
+    
+    // MARK: - Init
+    
+    init(presenter: ___VARIABLE_ModuleName___PresentationLogic, router: ___VARIABLE_ModuleName___RoutingLogic) {
+        self.presenter = presenter
+        self.router = router
+    }
 }

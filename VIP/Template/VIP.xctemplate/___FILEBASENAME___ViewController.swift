@@ -16,13 +16,11 @@ final class ___VARIABLE_ModuleName___ViewController: UIViewController {
     // MARK: - Private Properties
     
     private let interactor: ___VARIABLE_ModuleName___BusinessLogic
-    private let router: ___VARIABLE_ModuleName___RouterProtocol
     
     // MARK: - Init
     
-    init(interactor: ___VARIABLE_ModuleName___BusinessLogic, router: ___VARIABLE_ModuleName___RouterProtocol) {
+    init(interactor: ___VARIABLE_ModuleName___BusinessLogic) {
         self.interactor = interactor
-        self.router = router
         
         super.init(nibName: nil, bundle: nil)
     }
