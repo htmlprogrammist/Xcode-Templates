@@ -38,5 +38,7 @@ final class ___VARIABLE_ModuleName___ViewController: UIViewController {
     }
 }
 
+// MARK: - ___VARIABLE_ModuleName___DisplayLogic
+
 extension ___VARIABLE_ModuleName___ViewController: ___VARIABLE_ModuleName___DisplayLogic {
 }

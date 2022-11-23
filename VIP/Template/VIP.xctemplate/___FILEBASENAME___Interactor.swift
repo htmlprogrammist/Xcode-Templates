@@ -9,7 +9,7 @@
 protocol ___VARIABLE_ModuleName___BusinessLogic: AnyObject {
 }
 
-final class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___BusinessLogic {
+final class ___VARIABLE_ModuleName___Interactor {
     
     // MARK: - Private Properties
     
@@ -23,4 +23,7 @@ final class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___Busine
         self.presenter = presenter
         self.router = router
     }
+}
+
+extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___BusinessLogic {
 }

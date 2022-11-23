@@ -9,9 +9,9 @@
 protocol ___VARIABLE_ModuleName___PresentationLogic: AnyObject {
 }
 
-final class ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresentationLogic {
-    
-    // MARK: - Public Properties
-    
-    public weak var view: ___VARIABLE_ModuleName___DisplayLogic?
+final class ___VARIABLE_ModuleName___Presenter {
+    weak var view: ___VARIABLE_ModuleName___DisplayLogic?
+}
+
+extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresentationLogic {
 }
