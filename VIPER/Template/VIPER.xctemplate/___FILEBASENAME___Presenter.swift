@@ -29,3 +29,6 @@ extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___ViewOutpu
 
 extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___InteractorOutput {
 }
+
+extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___RouterOutput {
+}
